@@ -1,0 +1,215 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box !important;
+}
+#glavni-okvir {
+    height: 100vh;
+    background-color: #111;
+}
+#levi-aside {
+    background-color: aqua;
+}
+#desni-aside {
+    background-color: yellowgreen;
+    margin: 0px;
+    flex-shrink: initial;
+}
+#centralni-okvir {
+    background-color: blueviolet;
+    margin:0px;
+}
+.hide {
+    display: none;
+}
+#navigacija {
+    height:7vh;
+}
+#glavni {
+    height: 93vh;
+    background-color: aquamarine;
+}
+#game {
+    height:100%;
+    position: relative;
+}
+#victory-text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -75%) !important;
+    font-size: 3.5vw;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,0.9);
+}
+#tabla {
+    max-height:85%;
+    min-height: 50%;
+    aspect-ratio: 1 / 1;
+}
+#chat {
+    background-color: purple;
+    height:100%;
+}
+.polje {
+    background-color: #111;
+    text-decoration: none;
+    color: inherit;
+}
+.hov {
+    cursor: pointer;
+}
+.hov:hover {
+    background-color: #444;
+}
+#a1 {
+    border-bottom: 6px solid white;
+    border-right: 6px solid white;
+}
+#a2 {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 6px solid white;
+}
+#a3 {
+    border-bottom: 6px solid white;
+    border-left: 6px solid white;
+}
+#b1 {
+    border-bottom: 3px solid white;
+    border-right: 6px solid white;
+    border-top: 3px solid white;
+}
+#b2 {
+    border: 3px solid white;
+}
+#b3 {
+    border-bottom: 3px solid white;
+    border-left: 6px solid white;
+    border-top: 3px solid white;
+}
+#c1 {
+    border-top: 6px solid white;
+    border-right: 6px solid white;
+}
+#c2 {
+    border-top: 6px solid white;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+}
+#c3 {
+    border-top: 6px solid white;
+    border-left: 6px solid white;
+} 
+.red {
+    height:33.333%;
+}
+.ikonica {
+    font-size: 7vw;
+}
+
+
+
+
+
+
+
+
+
+.modal-header,
+.modal-footer {
+    background-color: #222E50;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#account-modal .modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-close {
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.btn-close:hover {
+    background-color: #BCD8C1;
+}
+
+.hide {
+    display: none !important;
+}
+
+#signup-modal .alert-danger {
+    padding: 4px;
+    line-height: 2em;
+}
+
+#login-modal .alert-danger {
+    padding: 10px;
+}
+
+.error-border {
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px red;
+}
+
+.modal-footer .btn {
+    background-color: white;
+}
+
+.modal-footer .btn:hover {
+    background-color: #BCD8C1;
+}
+
+#signup-forma {
+    width: 100%;
+}
+
+#signup-forma .row .col-md {
+    margin-bottom: 25px;
+}
+
+#signup-forma .row .col-sm-9,
+.row .col-sm-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#signup-forma .row .col-md {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+#signup-forma .row .col-md .formup {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#signup-forma .row .col-md .formdown {
+    margin-top: 15px;
+}
+
+#signup-forma .row .col-md label,
+.row .col-sm-9 label {
+    margin-right: 20px;
+}
+
+#signup-forma .row .col-sm-3 {
+    justify-content: flex-start;
+}
+
+#signup-forma .row .col-sm-9 {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signup-forma .row .alert-success {
+    padding: 10px;
+}
